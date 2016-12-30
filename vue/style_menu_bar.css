@@ -1,0 +1,13 @@
+.barre {
+	display: flex;
+	flex-direction: row;
+}
+.barre a {
+	font-style: 200%;
+	color: black;
+	margin-right: 20px;
+}
+.titre_blog {
+	color: blue;
+	text-align: center;
+}
