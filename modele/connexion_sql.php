@@ -1,6 +1,6 @@
 <?php
 
-// Connexion à la base de données
+// Connexion ?la base de donn?s
 try
 {
     $bdd = new PDO('mysql:host=localhost;dbname=blog', 'root', '');
