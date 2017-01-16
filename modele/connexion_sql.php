@@ -3,7 +3,7 @@
 // Connexion ?la base de donn?s
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=blog', 'root', '');
+    $bdd = new PDO('pgsql:host=localhost;dbname=blog_mvc', 'test', 'test');
 }
 catch(Exception $e)
 {
